@@ -4,7 +4,6 @@
     "keywords": ["soap", "wsdl"],
     "license": "MIT",
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "SOAPGenerator\\": ["src/", "lib/"]
