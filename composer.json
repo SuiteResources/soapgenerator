@@ -3,7 +3,6 @@
     "description": "Generate php classes from a wsdl file.",
     "keywords": ["soap", "wsdl"],
     "license": "MIT",
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "SOAPGenerator\\": ["src/", "lib/"]
