@@ -1,5 +1,5 @@
 {
-    "name": "SuiteResourcees/SOAPGenerator",
+    "name": "suiteresources/soapgenerator",
     "description": "Generate php classes from a wsdl file.",
     "keywords": ["soap", "wsdl"],
     "license": "MIT",
