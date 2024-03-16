@@ -29,11 +29,11 @@ This introduces changes to both configuration and generated code. The changes ma
 
 Add SOAPGenerator to your project using [composer](https://getcomposer.org/doc/00-intro.md):
 ```bash
-composer require SOAPGenerator/SOAPGenerator
+composer require SuiteResources/SOAPGenerator
 ```
 
 ## Contributors
-Originally developed by [@walle](https://github.com/walle) and includes bug fixes and improvements from [various contributors](https://github.com/SOAPGenerator/SOAPGenerator/graphs/contributors).
+Originally developed by [@walle](https://github.com/walle) and includes bug fixes and improvements from [various contributors](https://github.com/SuiteResources/SOAPGenerator/graphs/contributors).
 
 ### Contributing
 Pull requests are very welcome. Please read [our guidelines for contributing](CONTRIBUTING.md).
