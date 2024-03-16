@@ -1,0 +1,1427 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method SOAPGenerator\\\\ArrayType\\:\\:generateClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/ArrayType.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ArrayType\\:\\:implementArrayAccess\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/ArrayType.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ArrayType\\:\\:implementIterator\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/ArrayType.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ArrayType\\:\\:implementCountable\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/ArrayType.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ArrayType\\:\\:implementArrayInterfaces\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/ArrayType.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\ComplexType\\:\\:\\$abstract has no typehint specified\\.$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Parameter \\#3 \\$datatype of method SOAPGenerator\\\\Type\\:\\:__construct\\(\\) expects string, null given\\.$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\ComplexType\\:\\:\\$baseType \\(SOAPGenerator\\\\ComplexType\\) does not accept null\\.$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ComplexType\\:\\:generateClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Class SOAPGenerator\\\\ComplexType referenced with incorrect case\\: SOAPGenerator\\\\complexType\\.$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ComplexType\\:\\:setBaseType\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ComplexType\\:\\:setAbstract\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ComplexType\\:\\:addMember\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ComplexType\\:\\:buildParametersString\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ComplexType.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Config\\:\\:\\$options type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:__construct\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:get\\(\\) has parameter \\$key with no typehint specified\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$key\\)\\: Unexpected token \"\\$key\", expected type at offset 75$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:set\\(\\) has parameter \\$key with no typehint specified\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:set\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$key\\)\\: Unexpected token \"\\$key\", expected type at offset 89$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$value\\)\\: Unexpected token \"\\$value\", expected type at offset 108$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:configureOptions\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:normalizeArray\\(\\) has parameter \\$value with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:normalizeArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function strlen expects string, array\\|string given\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Parameter \\#2 \\$str of function explode expects string, array\\|string given\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:normalizeSoapClientOptions\\(\\) has parameter \\$value with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:normalizeSoapClientOptions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:normalizeProxy\\(\\) has parameter \\$value with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Config\\:\\:normalizeProxy\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Offset 'host' does not exist on array\\(\\)\\|array\\('scheme' \\=\\> string, 'host' \\=\\> string, 'port' \\=\\> int, 'user' \\=\\> string, 'pass' \\=\\> string, 'path' \\=\\> string, 'query' \\=\\> string, 'fragment' \\=\\> string\\)\\.$#"
+			count: 1
+			path: src/Config.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ConfigInterface\\:\\:get\\(\\) has parameter \\$key with no typehint specified\\.$#"
+			count: 1
+			path: src/ConfigInterface.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$key\\)\\: Unexpected token \"\\$key\", expected type at offset 75$#"
+			count: 1
+			path: src/ConfigInterface.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ConfigInterface\\:\\:set\\(\\) has parameter \\$key with no typehint specified\\.$#"
+			count: 1
+			path: src/ConfigInterface.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\ConfigInterface\\:\\:set\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			count: 1
+			path: src/ConfigInterface.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$key\\)\\: Unexpected token \"\\$key\", expected type at offset 89$#"
+			count: 1
+			path: src/ConfigInterface.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$value\\)\\: Unexpected token \"\\$value\", expected type at offset 108$#"
+			count: 1
+			path: src/ConfigInterface.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Enum\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Enum.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Enum\\:\\:generateClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Enum.php
+
+		-
+			message: "#^PHPDoc tag @throws with type SOAPGenerator\\\\Exception is not subtype of Throwable$#"
+			count: 1
+			path: src/Enum.php
+
+		-
+			message: "#^Instantiated class SOAPGenerator\\\\Exception not found\\.$#"
+			count: 1
+			path: src/Enum.php
+
+		-
+			message: "#^Throwing object of an unknown class SOAPGenerator\\\\Exception\\.$#"
+			count: 1
+			path: src/Enum.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Enum\\:\\:addValue\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Enum.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Filter\\\\ServiceOperationFilter\\:\\:\\$methods type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Filter/ServiceOperationFilter.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Generator\\:\\:\\$service \\(SOAPGenerator\\\\Service\\) does not accept null\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Generator\\:\\:generate\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Generator\\:\\:load\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Generator\\:\\:load\\(\\) has parameter \\$wsdl with no typehint specified\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Generator\\:\\:loadService\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Generator\\:\\:loadTypes\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Call to an undefined method SOAPGenerator\\\\Type\\:\\:setBaseType\\(\\)\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Generator\\:\\:savePhp\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Generator\\:\\:log\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Generator\\:\\:setLogger\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Generator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\GeneratorInterface\\:\\:generate\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/GeneratorInterface.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\GeneratorInterface\\:\\:setLogger\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/GeneratorInterface.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Operation\\:\\:\\$params type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Operation.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Operation\\:\\:getPhpDocParams\\(\\) has parameter \\$validTypes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Operation.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Operation\\:\\:getPhpDocParams\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Operation.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(array An array of Type objects with valid types for typehinting\\)\\: Unexpected token \"An\", expected variable at offset 68$#"
+			count: 1
+			path: src/Operation.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Operation\\:\\:getParams\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Operation.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Operation\\:\\:generateParams\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Operation.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\OutputManager\\:\\:save\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/OutputManager.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\OutputManager\\:\\:save\\(\\) has parameter \\$types with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/OutputManager.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\OutputManager\\:\\:setOutputDirectory\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/OutputManager.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\OutputManager\\:\\:saveClassToFile\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/OutputManager.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\OutputManager\\:\\:saveAutoloader\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/OutputManager.php
+
+		-
+			message: "#^Parameter \\#1 \\$access of class SOAPGenerator\\\\PhpSource\\\\PhpFunction constructor expects string, null given\\.$#"
+			count: 1
+			path: src/OutputManager.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Pattern\\:\\:setValue\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Pattern.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Service\\:\\:__construct\\(\\) has parameter \\$types with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Service.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Service\\:\\:generateClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Service.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Service\\:\\:addOperation\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Service.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Type\\:\\:\\$class \\(SOAPGenerator\\\\PhpSource\\\\PhpClass\\) does not accept null\\.$#"
+			count: 1
+			path: src/Type.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Type\\:\\:generateClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Type.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Validator\\:\\:\\$keywords type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Validator.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 4
+			path: src/Validator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Validator\\:\\:validateUnique\\(\\) has parameter \\$name with no typehint specified\\.$#"
+			count: 1
+			path: src/Validator.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$name the name to test\\)\\: Unexpected token \"\\$name\", expected type at offset 138$#"
+			count: 1
+			path: src/Validator.php
+
+		-
+			message: "#^Parameter \\#2 \\$subject of function preg_match expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/Validator.php
+
+		-
+			message: "#^Parameter \\#1 \\$str of function ucfirst expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/Validator.php
+
+		-
+			message: "#^Parameter \\#3 \\$subject of function preg_replace expects array\\|string, string\\|false given\\.$#"
+			count: 1
+			path: src/Validator.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\OperationNode\\:\\:__construct\\(\\) has parameter \\$wsdlFunction with no typehint specified\\.$#"
+			count: 1
+			path: src/Xml/OperationNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\SchemaDocument\\:\\:__construct\\(\\) has parameter \\$xsdUrl with no typehint specified\\.$#"
+			count: 1
+			path: src/Xml/SchemaDocument.php
+
+		-
+			message: "#^Parameter \\#1 \\$document of method SOAPGenerator\\\\Xml\\\\XmlNode\\:\\:__construct\\(\\) expects null, DOMDocument given\\.$#"
+			count: 1
+			path: src/Xml/SchemaDocument.php
+
+		-
+			message: "#^Parameter \\#2 \\$element of method SOAPGenerator\\\\Xml\\\\XmlNode\\:\\:__construct\\(\\) expects null, DOMElement\\|null given\\.$#"
+			count: 1
+			path: src/Xml/SchemaDocument.php
+
+		-
+			message: "#^Access to an undefined property DOMNode\\:\\:\\$value\\.$#"
+			count: 1
+			path: src/Xml/SchemaDocument.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\SchemaDocument\\:\\:findTypeElement\\(\\) should return DOMElement\\|null but returns DOMNode\\|null\\.$#"
+			count: 1
+			path: src/Xml/SchemaDocument.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\TypeNode\\:\\:isElementArray\\(\\) has parameter \\$name with no typehint specified\\.$#"
+			count: 1
+			path: src/Xml/TypeNode.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$name string The name of the sub element\\)\\: Unexpected token \"\\$name\", expected type at offset 99$#"
+			count: 1
+			path: src/Xml/TypeNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\TypeNode\\:\\:getElementMinOccurs\\(\\) has parameter \\$name with no typehint specified\\.$#"
+			count: 1
+			path: src/Xml/TypeNode.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$name string The name of the sub element\\)\\: Unexpected token \"\\$name\", expected type at offset 76$#"
+			count: 1
+			path: src/Xml/TypeNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\TypeNode\\:\\:getElementMinOccurs\\(\\) should return int but returns null\\.$#"
+			count: 2
+			path: src/Xml/TypeNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\TypeNode\\:\\:getParts\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Xml/TypeNode.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: src/Xml/TypeNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\WsdlDocument\\:\\:__construct\\(\\) has parameter \\$wsdlUrl with no typehint specified\\.$#"
+			count: 1
+			path: src/Xml/WsdlDocument.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Xml\\\\WsdlDocument\\:\\:\\$soapClient \\(SoapClient\\) does not accept object\\.$#"
+			count: 1
+			path: src/Xml/WsdlDocument.php
+
+		-
+			message: "#^Parameter \\#1 \\$document of class SOAPGenerator\\\\Xml\\\\ServiceNode constructor expects null, DOMDocument given\\.$#"
+			count: 1
+			path: src/Xml/WsdlDocument.php
+
+		-
+			message: "#^Parameter \\#2 \\$element of class SOAPGenerator\\\\Xml\\\\ServiceNode constructor expects null, DOMElement\\|null given\\.$#"
+			count: 1
+			path: src/Xml/WsdlDocument.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\WsdlDocument\\:\\:getService\\(\\) should return SOAPGenerator\\\\Xml\\\\ServiceNode but returns null\\.$#"
+			count: 1
+			path: src/Xml/WsdlDocument.php
+
+		-
+			message: "#^Parameter \\#2 \\$element of method SOAPGenerator\\\\Xml\\\\XmlNode\\:\\:setElement\\(\\) expects DOMElement\\|null, DOMNode\\|null given\\.$#"
+			count: 1
+			path: src/Xml/WsdlDocument.php
+
+		-
+			message: "#^Parameter \\#1 \\$document of method SOAPGenerator\\\\Xml\\\\XmlNode\\:\\:setElement\\(\\) expects DOMDocument, null given\\.$#"
+			count: 1
+			path: src/Xml/XmlNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\XmlNode\\:\\:setElement\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: src/Xml/XmlNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\XmlNode\\:\\:xpath\\(\\) return type with generic class DOMNodeList does not specify its types\\: TNode$#"
+			count: 1
+			path: src/Xml/XmlNode.php
+
+		-
+			message: "#^Parameter \\#2 \\$parameters of function call_user_func_array expects array\\<int, mixed\\>, array\\<int\\|string, mixed\\> given\\.$#"
+			count: 1
+			path: src/Xml/XmlNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\XmlNode\\:\\:xpath\\(\\) should return DOMNodeList but returns DOMNodeList\\|false\\.$#"
+			count: 1
+			path: src/Xml/XmlNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Xml\\\\XmlNode\\:\\:cleanNamespace\\(\\) should return string but returns string\\|false\\.$#"
+			count: 1
+			path: src/Xml/XmlNode.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\AbstractTest\\:\\:testAbstract\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/AbstractTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\AbstractTest\\:\\:testAbstractClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/AbstractTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\AmazonEc2Test\\:\\:testNonStandardNamespace\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/AmazonEc2Test.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CommentsGenerationTest\\:\\:testMainClassExists\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/CommentsGenerationTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CommentsGenerationTest\\:\\:testEmptyCommentWillNotBeGenerated\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/CommentsGenerationTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CommentsGenerationTest\\:\\:testNewLinesRemovedFromBordersOfDescription\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/CommentsGenerationTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CommentsGenerationTest\\:\\:testNewLinesRemovedFromBordersOfDescription\\(\\) has parameter \\$mainClass with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Functional/CommentsGenerationTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CommentsGenerationTest\\:\\:testThereIsNoNewLineAfterDescriptionByDefault\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/CommentsGenerationTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CommentsGenerationTest\\:\\:testThereIsNoNewLineAfterDescriptionByDefault\\(\\) has parameter \\$mainClass with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Functional/CommentsGenerationTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CommentsGenerationTest\\:\\:testThereIsNoNewLineAboveTagsSection\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/CommentsGenerationTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CommentsGenerationTest\\:\\:testThereIsNoNewLineAboveTagsSection\\(\\) has parameter \\$mainClass with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Functional/CommentsGenerationTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Functional\\\\ConstructorParamsDefaultToNullTest\\:\\:\\$namespace has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ConstructorParamsDefaultToNullTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\ConstructorParamsDefaultToNullTest\\:\\:configureOptions\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ConstructorParamsDefaultToNullTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\ConstructorParamsDefaultToNullTest\\:\\:testConstructorParamsDefaultToNull\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ConstructorParamsDefaultToNullTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CurrencyConverterTest\\:\\:configureOptions\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/CurrencyConverterTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\CurrencyConverterTest\\:\\:testCurrencyConvertor\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/CurrencyConverterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$FromCurrency of class CC\\\\ConversionRate constructor expects CC\\\\Currency, string given\\.$#"
+			count: 1
+			path: tests/src/Functional/CurrencyConverterTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$ToCurrency of class CC\\\\ConversionRate constructor expects CC\\\\Currency, string given\\.$#"
+			count: 1
+			path: tests/src/Functional/CurrencyConverterTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Functional\\\\FunctionalTestCase\\:\\:\\$fixtureDir has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/FunctionalTestCase.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Functional\\\\FunctionalTestCase\\:\\:\\$generatedTestCases type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/src/Functional/FunctionalTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\FunctionalTestCase\\:\\:configureOptions\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/FunctionalTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\FunctionalTestCase\\:\\:deleteDir\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/FunctionalTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\FunctionalTestCase\\:\\:assertGeneratedFileExists\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/FunctionalTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\FunctionalTestCase\\:\\:assertFileNotGenerated\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/FunctionalTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\FunctionalTestCase\\:\\:assertGeneratedClassExists\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/FunctionalTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\MsSequelServerNativeWebServicesTest\\:\\:testGeneratedCode\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/MsSequelServerNativeWebServicesTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\NaicsTest\\:\\:testNaics\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/NaicsTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\NaicsTest\\:\\:checkArray\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/NaicsTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\NaicsTest\\:\\:checkArray\\(\\) has parameter \\$array with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/NaicsTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\NaicsTest\\:\\:checkArray\\(\\) has parameter \\$arrayClass with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/NaicsTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\NaicsTest\\:\\:testSingleNaics\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/NaicsTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Functional\\\\NullableTest\\:\\:\\$namespace has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/NullableTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\NullableTest\\:\\:configureOptions\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/NullableTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\NullableTest\\:\\:testMinOccurs0Nullable\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/NullableTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Functional\\\\OperationNameFilterTest\\:\\:\\$namespace has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/OperationNameFilterTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\OperationNameFilterTest\\:\\:testFilterByOperationName\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/OperationNameFilterTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\OperationNameFilterTest\\:\\:configureOptions\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/OperationNameFilterTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\PayPalSvcTest\\:\\:testRelativeImportPaths\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/PayPalSvcTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Functional\\\\ReferencesTest\\:\\:\\$namespace has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ReferencesTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\ReferencesTest\\:\\:configureOptions\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ReferencesTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\ReferencesTest\\:\\:testReferences\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ReferencesTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$argument of class ReflectionClass constructor expects class\\-string\\<T of object\\>\\|T of object, string given\\.$#"
+			count: 2
+			path: tests/src/Functional/ReferencesTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Functional\\\\ReuseTest\\:\\:\\$CurrencyConvertorClassesList has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ReuseTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\ReuseTest\\:\\:testReuse\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ReuseTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\ReuseTest\\:\\:assertGeneratedFileNotExists\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ReuseTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\ReuseTest\\:\\:assertGeneratedFileNotExists\\(\\) has parameter \\$filename with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ReuseTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\ReuseTest\\:\\:assertGeneratedFileNotExists\\(\\) has parameter \\$message with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/ReuseTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Functional\\\\SimpleTypeInheritanceTest\\:\\:\\$namespace has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/SimpleTypeInheritanceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\SimpleTypeInheritanceTest\\:\\:configureOptions\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/SimpleTypeInheritanceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\SimpleTypeInheritanceTest\\:\\:testStringInheritance\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/SimpleTypeInheritanceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\SimpleTypeInheritanceTest\\:\\:testEnumInheritance\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/SimpleTypeInheritanceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\SimpleTypeInheritanceTest\\:\\:testPatternInheritance\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/SimpleTypeInheritanceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Functional\\\\Utf8Test\\:\\:testUtf8\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Functional/Utf8Test.php
+
+		-
+			message: "#^Parameter \\#1 \\$argument of class ReflectionClass constructor expects ArrayOfMsgContrasena\\|class\\-string\\<ArrayOfMsgContrasena\\>, string given\\.$#"
+			count: 1
+			path: tests/src/Functional/Utf8Test.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Mock\\\\SoapClient\\:\\:\\$options type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/src/Mock/SoapClient.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Mock\\\\SoapClient\\:\\:__construct\\(\\) has parameter \\$options with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Mock/SoapClient.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Mock\\\\SoapClient\\:\\:__construct\\(\\) has parameter \\$wsdl with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Mock/SoapClient.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\ArrayTypeTest\\:\\:\\$items type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Instantiated class ArrayTypeTestClass not found\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\ArrayTypeTest\\:\\:\\$class \\(SOAPGenerator\\\\ArrayType\\) does not accept ArrayTypeTestClass\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ArrayTypeTest\\:\\:testClassExists\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ArrayTypeTest\\:\\:testArrayAccessImplementation\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Cannot access offset \\(int\\|string\\) on SOAPGenerator\\\\ArrayType\\.$#"
+			count: 2
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Cannot access offset 'doesntExists' on SOAPGenerator\\\\ArrayType\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Cannot access offset 'newItem' on SOAPGenerator\\\\ArrayType\\.$#"
+			count: 3
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Cannot access an offset on SOAPGenerator\\\\ArrayType\\.$#"
+			count: 2
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Cannot unset offset 'newItem' on SOAPGenerator\\\\ArrayType\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ArrayTypeTest\\:\\:testIteratorImplementation\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Argument of an invalid type SOAPGenerator\\\\ArrayType supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ArrayTypeTest\\:\\:testCountableImplementation\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertCount\\(\\) expects Countable\\|iterable, SOAPGenerator\\\\ArrayType given\\.$#"
+			count: 1
+			path: tests/src/Unit/ArrayTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassExists\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeTypeConsistency\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeTypeConsistency\\(\\) has parameter \\$attributeName with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeTypeConsistency\\(\\) has parameter \\$object with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeTypeConsistency\\(\\) has parameter \\$type with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$attributeName the name of the attribute\\)\\: Unexpected token \"\\$attributeName\", expected type at offset 224$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$object the object\\)\\: Unexpected token \"\\$object\", expected type at offset 279$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$type the expected internal type of the attribute value\\)\\: Unexpected token \"\\$type\", expected type at offset 154$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeTypeMatchesDocBlock\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeTypeMatchesDocBlock\\(\\) has parameter \\$attributeName with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeTypeMatchesDocBlock\\(\\) has parameter \\$object with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$attributeName the name of the attribute\\)\\: Unexpected token \"\\$attributeName\", expected type at offset 161$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$object the object\\)\\: Unexpected token \"\\$object\", expected type at offset 216$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Parameter \\#3 \\$isNativeType of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertContainsOnly\\(\\) expects bool\\|null, string given\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeDocBlockInternalType\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeDocBlockInternalType\\(\\) has parameter \\$attributeName with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeDocBlockInternalType\\(\\) has parameter \\$message with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeDocBlockInternalType\\(\\) has parameter \\$object with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertAttributeDocBlockInternalType\\(\\) has parameter \\$type with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$attributeName the name of the attribute\\)\\: Unexpected token \"\\$attributeName\", expected type at offset 157$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$object the object\\)\\: Unexpected token \"\\$object\", expected type at offset 212$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$type the expected type\\)\\: Unexpected token \"\\$type\", expected type at offset 119$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:getAttributeDocBlockType\\(\\) has parameter \\$attributeName with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:getAttributeDocBlockType\\(\\) has parameter \\$object with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$attributeName the name of the attribute\\)\\: Unexpected token \"\\$attributeName\", expected type at offset 91$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$object the object\\)\\: Unexpected token \"\\$object\", expected type at offset 146$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Parameter \\#2 \\$subject of function preg_match expects string, string\\|false given\\.$#"
+			count: 3
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassImplementsInterface\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassImplementsInterface\\(\\) has parameter \\$class with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassImplementsInterface\\(\\) has parameter \\$interface with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$argument of class ReflectionClass constructor expects class\\-string\\<T of object\\>\\|T of object, string given\\.$#"
+			count: 8
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassHasConst\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassHasProperty\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassHasProperty\\(\\) has parameter \\$class with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassHasMethod\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassHasMethod\\(\\) has parameter \\$class with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassNotHasMethod\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassNotHasMethod\\(\\) has parameter \\$class with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertMethodHasParameter\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertMethodHasParameter\\(\\) has parameter \\$type with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertMethodParameterHasType\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Instanceof between string and ReflectionClass will always evaluate to false\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertMethodParameterDocBlockHasType\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertMethodHasReturnType\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassSubclassOf\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassSubclassOf\\(\\) has parameter \\$baseClass with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:assertClassSubclassOf\\(\\) has parameter \\$class with generic class ReflectionClass but does not specify its types\\: T$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:generateClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:streamSource\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:streamSource\\(\\) has parameter \\$addOpening with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\CodeGenerationTestCase\\:\\:streamSource\\(\\) has parameter \\$source with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$fp of function stream_get_meta_data expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$fp of function fwrite expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$fp of function fclose expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: tests/src/Unit/CodeGenerationTestCase.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\ComplexTypeTest\\:\\:\\$namespace has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ComplexTypeTest\\:\\:testDateTime\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Instantiated class ComplexTypeTestClass not found\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Call to method getDateTimeAttribute\\(\\) on an unknown class ComplexTypeTestClass\\.$#"
+			count: 2
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ComplexTypeTest\\:\\:testDateTimeNullConstructorParams\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Instantiated class ComplexTypeDateTimeNullTestClass not found\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Call to method getDateTimeAttribute\\(\\) on an unknown class ComplexTypeDateTimeNullTestClass\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ComplexTypeTest\\:\\:testKeywordNoNamespaceNameGeneration\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ComplexTypeTest\\:\\:testKeywordNamespaceNameGeneration\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ComplexTypeTest\\:\\:testFluentSetters\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Instantiated class Fluent not found\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Call to method setAttribute\\(\\) on an unknown class Fluent\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ComplexTypeTest\\:\\:testExtendingOwnClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Instantiated class ExtendOwn not found\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ComplexTypeTest\\:\\:testNullableTypedMembers\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Instantiated class NullableDateTime not found\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Call to method setADateTime\\(\\) on an unknown class NullableDateTime\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Call to method getADateTime\\(\\) on an unknown class NullableDateTime\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ComplexTypeTest\\:\\:setObjectProperty\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ComplexTypeTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:\\$options has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:\\$config has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:testGetSimpleValues\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:testNormalizedValues\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:testClassNamesNormalizer\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:testOperationNamesNormalizer\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:assertNormalizerForParameter\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:testSoapClientOptionsNormalizer\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:testProxyNormalizer\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ConfigTest\\:\\:testSoapProxyConfiguration\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ConfigTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\EnumTest\\:\\:\\$namespace has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/EnumTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\EnumTest\\:\\:testSimilarNames\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/EnumTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\Filter\\\\ServiceOperationFilterTest\\:\\:testFilterReturnsFilteredServiceWithUsedTypesOnly\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/Filter/ServiceOperationFilterTest.php
+
+		-
+			message: "#^Parameter \\#4 \\$returns of class SOAPGenerator\\\\Operation constructor expects string, null given\\.$#"
+			count: 1
+			path: tests/src/Unit/Filter/ServiceOperationFilterTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:\\$namespace has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:\\$soapclientClass has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:\\$wsdl has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Property SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:\\$soapclientOptions has no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:testSoapConfig\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Instantiated class SoapClientTest\\\\TestService not found\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:testSoapClientClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:testSoapClientClass\\(\\) has parameter \\$service with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:testSoapClientWsdl\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:testSoapClientWsdl\\(\\) has parameter \\$service with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:testSoapClientOptions\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ServiceTest\\:\\:testSoapClientOptions\\(\\) has parameter \\$service with no typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ServiceTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\StreamContextFactoryTest\\:\\:testProxyStreamContext\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/StreamContextFactoryTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\StreamContextFactoryTest\\:\\:testAuthorizationHeaderShouldBeDefined\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/StreamContextFactoryTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\StreamContextFactoryTest\\:\\:testAuthorizationHeaderAndProxyShouldBeDefined\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/StreamContextFactoryTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ValidatorTest\\:\\:testValidateClass\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ValidatorTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ValidatorTest\\:\\:testValidateClassReservedKeyword\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ValidatorTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ValidatorTest\\:\\:testValidateClassExists\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ValidatorTest.php
+
+		-
+			message: "#^Method SOAPGenerator\\\\Tests\\\\Unit\\\\ValidatorTest\\:\\:testValidateType\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/src/Unit/ValidatorTest.php
+
